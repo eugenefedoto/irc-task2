@@ -1,0 +1,64 @@
+.tabs {
+width: 90%;
+margin: auto;
+}
+
+.tab-links:after {
+display: block;
+clear: both;
+content: '';
+}
+.tab-links {
+margin: 0px;
+}
+.tab-links li {
+margin: 0px 3px;
+float: left;
+list-style: none;
+}
+.tab-links a {
+padding: 9px 15px;
+display: inline-block;
+border-radius: 3px 3px 0px 0px;
+text-decoration: none;
+font-size: 16px;
+font-weight: 600;
+color: #999;
+border: 1px solid #fff;
+}
+.tab-links a:hover {
+text-decoration: none;
+}
+li.is-active a,
+li.is-active a:hover {
+border: 2px solid #ccc;
+border-bottom: 1px solid #fff;
+color: #444;
+}
+
+.tab-content {
+padding: 15px;
+border-radius: 3px;
+border: 2px solid #ccc;
+background: #fff;
+min-height: 300px;
+z-index: -99;
+}
+.tab {
+display: none;
+min-height: 300px;
+}
+.tab.active {
+display: block;
+}
+
+.tab-links .active{
+margin-top : 1px;
+}
+.active > a {
+    margin-bottom: -1px;
+}
+
+.tabs-details {
+border: 2px solid #ccc;
+}

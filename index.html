@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="nav.css" />
+  </head>
+  <body>
+      <div id="root" class="container">
+          <tabs>
+              <tab name="First Tab" :focus="true">
+                  <h1>first tab content</h1>
+              </tab>
+  
+              <tab name="Second Tab">
+                  <h1>second tab content</h1>
+              </tab>
+  
+              <tab name="Custom Fragment">
+                  <h1>custom fragment content</h1>
+              </tab>
+
+              <tab name="Prefix and Suffix">
+                  <h1>A prefix and a suffix can be added &#8212 HTML allowed</h1>
+              </tab>
+          </tabs>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
